@@ -86,5 +86,5 @@ setInterval(() => {
 const downloadURL = "https://1024terabox.com/s/1bIqfqhhJp1WvHby0XIa_Gw";
 
 installBtn.addEventListener("click", () => {
-window.open(downloadURL, "_blank", "noopener,noreferrer");
+    window.location.href = downloadURL;
 });
