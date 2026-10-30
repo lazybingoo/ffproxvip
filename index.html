@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#07110e">
+<title>FF Proxy Portal — Demo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand-dots"><i></i><i></i><i></i><i></i></div>
+  <strong>FF PROXY PORTAL</strong>
+  <span class="live"><b></b> DEMO PORTAL</span>
+</header>
+
+<div class="ticker" aria-label="Demo feature list">
+  <span>Proxy Server</span><span>—</span><span>Unlimited Access</span><span>—</span><span>No Ban Risk</span><span>—</span><span>Watch Video</span>
+</div>
+
+<main class="container">
+  <div class="step"><span></span> STEP 01 — WATCH</div>
+  <section class="video-card">
+    <!-- Put your own MP4 at videos/sample.mp4, then keep this source path. -->
+    <video id="sampleVideo" controls playsinline loop poster="assets/video-poster.jpg">
+      <source src="videos/sample.mp4" type="video/mp4">
+      Your browser does not support HTML video.
+    </video>
+    <div class="video-live-badge"><span></span> LIVE <small>DEMO</small></div>
+    <div class="video-hint" id="videoHint">Add your video at <code>videos/sample.mp4</code></div>
+    <div class="corner corner-a"></div><div class="corner corner-b"></div>
+  </section>
+
+  <h1>WATCH FULL <em>VIDEO</em></h1>
+  <p class="sub">Preview the sample video below</p>
+  <p class="stats"><strong id="installCount">3,442</strong> simulated installs in last hour <span class="demo-tag">DEMO</span></p>
+
+  <button class="install-btn" id="installBtn" type="button">
+    <span class="download-icon" aria-hidden="true">↓</span>
+    <span>INSTALL NOW</span>
+  </button>
+  <p class="notice" id="notice" role="status">Demo button — connect your own trusted download file in the code.</p>
+
+  <div class="step step-two"><span></span> STEP 02 — INSTALL</div>
+  <section class="app-card">
+    <div class="app-icon" aria-hidden="true"><span>APK</span><b>↗</b></div>
+    <div class="app-info">
+      <div class="pills"><span>TRENDING</span><span>PREVIEW</span></div>
+      <h2>PROXY SERVER</h2>
+      <p>Sample app listing · Customize this description</p>
+      <div class="rating">★★★★★ <small>Demo listing</small></div>
+    </div>
+  </section>
+
+  <section class="comments">
+    <div class="comments-head">
+      <strong><i></i> Live Comments <span class="demo-tag">SIMULATED</span></strong>
+      <span><b id="watchingCount">1,490</b> watching · demo</span>
+    </div>
+    <div id="commentFeed" aria-live="polite">
+      <article class="comment"><div class="avatar blue">P</div><div><b>Pankaj_HD791</b><small>just now</small><p>Bhai, video quality mast hai 😄</p></div></article>
+      <article class="comment"><div class="avatar cyan">V</div><div><b>Varun2003</b><small>just now</small><p>Nice design bro 🔥</p></div></article>
+      <article class="comment"><div class="avatar orange">A</div><div><b>AkashGaming</b><small>just now</small><p>Watching the demo from India 🇮🇳</p></div></article>
+    </div>
+    <p class="simulation-note">Demo-only activity: these names, comments, and counters are simulated, not real users or verified installs.</p>
+  </section>
+  <footer>Independent demo template · Simulated activity only · Not affiliated with Garena or Google</footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
