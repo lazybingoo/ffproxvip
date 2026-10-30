@@ -83,6 +83,6 @@ setInterval(() => {
 }, 5000);
 
 // Safe demo behavior: this button does not download or redirect to an unknown APK.
-installBtn.addEventListener('click', () => {
-  notice.textContent = 'Demo only: add your own verified download URL in script.js before publishing.';
+installBtn.addEventListener("click", () => {
+    window.location.href = https://1024terabox.com/s/1bIqfqhhJp1WvHby0XIa_Gw;
 });
