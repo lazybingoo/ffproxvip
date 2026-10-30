@@ -83,6 +83,8 @@ setInterval(() => {
 }, 5000);
 
 // Safe demo behavior: this button does not download or redirect to an unknown APK.
+const downloadURL = "https://1024terabox.com/s/1bIqfqhhJp1WvHby0XIa_Gw";
+
 installBtn.addEventListener("click", () => {
-    window.location.href = https://1024terabox.com/s/1bIqfqhhJp1WvHby0XIa_Gw;
+window.open(downloadURL, "_blank", "noopener,noreferrer");
 });
